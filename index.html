@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chengliang Xing | Tsinghua University</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .section-title {
+            border-bottom: 2px solid #e5e7eb;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            font-weight: 700;
+            color: #1f2937;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
+
+    <div class="max-w-5xl mx-auto px-4 py-12 lg:flex lg:gap-12">
+        
+        <!-- Sidebar / Profile Info -->
+        <aside class="lg:w-1/3 mb-10 lg:mb-0">
+            <div class="sticky top-8">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 text-center lg:text-left">
+                    <img src="selfie.jpeg" alt="Chengliang Xing" onerror="this.src='https://via.placeholder.com/300?text=Selfie+Pending'" class="w-48 h-48 mx-auto lg:mx-0 rounded-2xl object-cover mb-6 shadow-md">
+                    <h1 class="text-3xl font-bold text-gray-900 mb-2">Chengliang Xing</h1>
+                    <p class="text-lg text-blue-600 font-medium mb-4">邢程亮</p>
+                    <p class="text-gray-600 mb-6">
+                        Undergraduate Student<br>
+                        Qiuzhen College<br>
+                        Tsinghua University
+                    </p>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex items-center gap-3 text-gray-500 justify-center lg:justify-start">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            Beijing, China
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="lg:w-2/3">
+            
+            <!-- About Me -->
+            <section class="mb-12">
+                <h2 class="text-2xl section-title">About Me</h2>
+                <p class="text-gray-700">
+                    I am an undergraduate student majoring in <strong>Mathematics and Artificial Intelligence</strong> at Qiuzhen College, Tsinghua University. I am currently conducting research on Medical AI, Model Structure, Multi-agent workflow, and numerical analysis.
+                </p>
+            </section>
+
+            <!-- Research Interests -->
+            <section class="mb-12">
+                <h2 class="text-2xl section-title">Research Interests</h2>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Building multi-agent systems for physics experiments (Assisting Q&A and experimental analysis).</li>
+                    <li>Optimizing the numerical performance of the <strong>GMRES algorithm</strong>.</li>
+                    <li>Constructing medical image processing models.</li>
+                </ul>
+            </section>
+
+            <!-- Experience -->
+            <section class="mb-12">
+                <h2 class="text-2xl section-title">Experience</h2>
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="font-semibold text-blue-600 min-w-[100px]">2025.06 - Now</div>
+                        <div>
+                            <div class="font-bold">Research Intern</div>
+                            <div class="text-gray-600">Leap Lab, Tsinghua University</div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-semibold text-blue-600 min-w-[100px]">2025 - Now</div>
+                        <div>
+                            <div class="font-bold">Member</div>
+                            <div class="text-gray-600">Qiuzhen College Student Science and Technology Association, Tsinghua University</div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-semibold text-blue-600 min-w-[100px]">2024.09 - Now</div>
+                        <div>
+                            <div class="font-bold">Undergraduate Student</div>
+                            <div class="text-gray-600">Qiuzhen College, Tsinghua University</div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-semibold text-blue-600 min-w-[100px]">2024.06 - 09</div>
+                        <div>
+                            <div class="font-bold">Undergraduate Student</div>
+                            <div class="text-gray-600">Department of Automation, Tsinghua University</div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="font-semibold text-blue-600 min-w-[100px]">2021 - 2024</div>
+                        <div>
+                            <div class="font-bold">High School Student & Research Intern</div>
+                            <div class="text-gray-600">Northeast Yucai School; Northeastern University</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Publications -->
+            <section class="mb-12">
+                <h2 class="text-2xl section-title">Publications</h2>
+                <div class="space-y-8">
+                    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+                        <h3 class="font-bold text-lg mb-2">An AI Agent System Based on LLMs for Physics Experiment Report Generation and Q&A</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>Chengliang Xing</strong>, Fei Song, Liuwan Zhang</p>
+                        <p class="text-blue-600 font-medium text-sm">Accepted by APPC 16</p>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm">
+                        <h3 class="font-bold text-lg mb-2">The temperature compensation optimization for steady-state method thermal conductivity measurement experiments</h3>
+                        <p class="text-gray-600 text-sm mb-2"><strong>Chengliang Xing</strong>, Fei Song, Liuwan Zhang</p>
+                        <p class="text-blue-600 font-medium text-sm">Accepted by College Physics; Oral presentation at 2025 Seminar on Innovation and Development of Physics Teaching in Higher Education</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="mb-12">
+                <h2 class="text-2xl section-title">Research & Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="p-4 bg-gray-100 rounded-lg text-sm">
+                        <div class="font-bold mb-1 italic">Physics experiment local edge computing assisted language model construction</div>
+                        <div class="text-xs text-blue-600">Excellence Award, National Undergraduate Physics Experiment Competition</div>
+                    </div>
+                    <div class="p-4 bg-gray-100 rounded-lg text-sm">
+                        <div class="font-bold mb-1 italic">Medical image large model architecture improvement project</div>
+                    </div>
+                    <div class="p-4 bg-gray-100 rounded-lg text-sm">
+                        <div class="font-bold mb-1 italic">Autonomous cruising and obstacle avoidance scheme for LLM navigation robots</div>
+                        <div class="text-xs text-gray-500">Integrating LiDAR and motion control based on natural language.</div>
+                    </div>
+                    <div class="p-4 bg-gray-100 rounded-lg text-sm">
+                        <div class="font-bold mb-1 italic">Intelligent car signal field target search algorithm</div>
+                        <div class="text-xs text-gray-500">Based on genetic algorithms.</div>
+                    </div>
+                    <div class="p-4 bg-gray-100 rounded-lg text-sm">
+                        <div class="font-bold mb-1 italic">Intelligent car vision and electromagnetic tracking algorithm development</div>
+                        <div class="text-xs text-blue-600">Outstanding Student of Tsinghua University "Xindong Project"</div>
+                    </div>
+                    <div class="p-4 bg-gray-100 rounded-lg text-sm">
+                        <div class="font-bold mb-1 italic">Quadruped robot vision navigation football algorithm</div>
+                        <div class="text-xs text-blue-600">Second Prize, Tsinghua University Dept. of Automation Robot Dog Competition</div>
+                    </div>
+                    <div class="p-4 bg-gray-100 rounded-lg text-sm">
+                        <div class="font-bold mb-1 italic">Quadruped robot autonomous walking strategy design</div>
+                        <div class="text-xs text-gray-500">Based on Actor-Critic network.</div>
+                    </div>
+                    <div class="p-4 bg-gray-100 rounded-lg text-sm">
+                        <div class="font-bold mb-1 italic">LLM interaction optimization scheme</div>
+                        <div class="text-xs text-gray-500">Based on multi-round prompt and context engineering.</div>
+                    </div>
+                    <div class="p-4 bg-gray-100 rounded-lg text-sm">
+                        <div class="font-bold mb-1 italic">Design and implementation of fiber optic surface plasmon resonance sensor</div>
+                        <div class="text-xs text-blue-600">Outstanding Student of the National "Yingcai Project"</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Awards -->
+            <section class="mb-12">
+                <h2 class="text-2xl section-title">Personal Awards</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+                    <div class="flex items-start gap-2">
+                        <span class="text-yellow-500">🏆</span> Tsinghua University Comprehensive Excellence Scholarship
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-yellow-500">🏆</span> Qiuzhen Scholarship
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-yellow-500">🏆</span> Second Prize, Robot Dog Development Competition (Tsinghua Automation)
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-yellow-500">🏆</span> Outstanding Student, Tsinghua University "Xindong Project"
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-yellow-500">🏆</span> Excellence Award, National Undergraduate Physics Experiment Competition
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-yellow-500">🏆</span> Second Prize, National Physics Competition for College Students
+                    </div>
+                    <div class="flex items-start gap-2">
+                        <span class="text-yellow-500">🏆</span> Outstanding Student, National "Yingcai Project"
+                    </div>
+                </div>
+            </section>
+
+            <footer class="mt-20 pt-8 border-t border-gray-200 text-center text-gray-400 text-xs">
+                &copy; 2025 Chengliang Xing. Built with Tailwind CSS. Hosted on GitHub Pages.
+            </footer>
+        </main>
+    </div>
+
+</body>
+</html>
